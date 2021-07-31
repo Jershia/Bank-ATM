@@ -11,7 +11,7 @@ class ATM(object):
         print("Your Balance Amount is 85990")
 
 def main():
-        card = input("Insert your card number :")
+        card = input("Enter your card number :")
         pin = input("Enter your pin :")
         user = ATM(card,pin)
         print("Enter 'b' for Balance enquiry and 'c' for Cash Withdrawl")
