@@ -24,6 +24,5 @@ def main():
         else:
             print("Not Valid")
 
-name = 0
-if(name == 0):
+if __name__ == '__main__':
     main()
